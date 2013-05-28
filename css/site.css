@@ -15,7 +15,7 @@
 
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 60px 0;
+        margin: 20px 0;
         text-align: center;
       }
       .app img {
@@ -27,13 +27,14 @@
       }
 
       .jumbotron h1 {
-        font-size: 38px;
+        font-size: 100px;
         line-height: 1;
         /*text-transform: uppercase;*/
         /*font-weight: bold;*/
-        letter-spacing: -1.5px;
+        letter-spacing: -3px;
         color:#00AD81;
         text-shadow: 1px 1px #fff;
+        font-weight: 400;
       }
       .jumbotron h2 {
         font-size: 43px;
@@ -63,6 +64,20 @@
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
+      }
+
+      /* Video Player Box */
+
+      .video-player {
+        background: url('../img/bg-box.png') repeat;
+        width: 640px;
+        height: 360px;
+        box-shadow: 0px 3px 15px #666666;
+        margin: auto auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        overflow: hidden;
       }
 
       /* Supporting marketing content */
