@@ -45,7 +45,7 @@
         font-weight: 200;*/
       }
       .jumbotron h3 {
-        font-size: 22px;
+        font-size: 35px;
         line-height: 1;
         color:#009B77;
       }
@@ -58,7 +58,8 @@
       .box {
         background: url('../img/bg-box.png') repeat;
         box-shadow: 0 0 5px #aaa inset;
-        width: 275px;
+        width: 50%;
+        min-width: 275px;
         margin: auto auto;
         padding: 10px;
         -webkit-border-radius: 5px;
@@ -77,8 +78,19 @@
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
-        overflow: hidden;
+        border: 5px #ffffff solid;
       }
+
+      /* line */
+      hr.style-one {
+      border: 0;
+      height: 5px;
+      background: #333;
+      background-image: -webkit-linear-gradient(left, #fff, #fff, #fff); 
+      background-image:    -moz-linear-gradient(left, #fff, #fff, #fff); 
+      background-image:     -ms-linear-gradient(left, #fff, #fff, #fff); 
+      background-image:      -o-linear-gradient(left, #fff, #fff, #fff); 
+}
 
       /* Supporting marketing content */
       .marketing {
