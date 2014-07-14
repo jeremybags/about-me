@@ -5,13 +5,18 @@
       }
 
       /* Custom container */
+       .container1 {
+        background: #333333 solid;
+        margin: 0 auto;
+        max-width: 1000px;}
+
       .container {
-        background-color: #333333 solid;
+        background: #333333 solid;
         margin: 0 auto;
         max-width: 1000px;
       }
       .container > hr {
-        background-color: #333333 solid;
+        background: #333333 solid;
         margin: 60px 0;
       }
 
